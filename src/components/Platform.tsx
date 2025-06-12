@@ -11,9 +11,14 @@ import {
   // ShoppingCart,
   MessageSquare,
 } from "lucide-react";
-import csImage from "../assets/cs.jpeg";
-import accImage from "../assets/acc.jpeg";
-import salesImage from "../assets/sales.jpeg";
+// import csImage from "../assets/cs.jpeg";
+// import accImage from "../assets/acc.jpeg";
+// import salesImage from "../assets/sales.jpeg";
+// import bg2 from "../assets/4.png";
+
+import csImage from "../assets/myhive1.gif";
+import accImage from "../assets/myhive2.gif";
+import salesImage from "../assets/myhive4.jpg";
 import bg2 from "../assets/4.png";
 
 const PlatformFeature = ({
@@ -59,7 +64,7 @@ const ImageScroller = () => {
 
     const timer = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000);
+    }, 10000);
 
     return () => clearInterval(timer);
   }, [images.length]);
