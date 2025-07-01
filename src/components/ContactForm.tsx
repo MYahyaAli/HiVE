@@ -17,8 +17,8 @@ interface ContactInfo {
 
 const officeLocations: ContactInfo[] = [
   {
-    phone: "+94 71 766 8690",
-    whatsapp: "94717668690",
+    phone: "+94 70 582 2929",
+    whatsapp: "94705822929",
     email: "hello@myhive.biz",
     address: "No. 146/5, Havelock Road",
     location: "Colombo 05, Sri Lanka",
